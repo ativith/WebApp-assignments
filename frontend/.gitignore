@@ -1,4 +1,5 @@
 .env
+.pages
 # Logs
 logs
 *.log
