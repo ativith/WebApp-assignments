@@ -40,7 +40,7 @@ header h1 {
 }
 
 /* Info cards */
-..info-grid {
+.info-grid {
   display: grid;
   grid-template-columns: 1fr; /* แสดง 1 บรรทัดต่อบรรทัด */
   gap: 8px;
