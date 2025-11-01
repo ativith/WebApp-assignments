@@ -17,8 +17,8 @@ It supports pagination (12 items/page), posting new celsius values to /api/logs 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
-const DRONE_ID = import.meta.env.VITE_DRONE_ID || "66011511";
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
+const DRONE_ID = import.meta.env.VITE_DRONE_ID;
 
 const api = axios.create({
   baseURL: API_BASE,
