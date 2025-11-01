@@ -9,10 +9,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "https://web-app-assignments-ao5z.vercel.app",
-    ],
+    origin: ["http://localhost:5173", "https://web-app-assignments.vercel.app"],
   })
 );
 app.use(express.json());
