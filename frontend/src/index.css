@@ -1,0 +1,155 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+/* Body and layout */
+body {
+  background-color: #f4f7fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* App container */
+#root {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Header / Config section */
+header {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1a73e8;
+  margin-bottom: 10px;
+}
+
+/* Info cards */
+..info-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* แสดง 1 บรรทัดต่อบรรทัด */
+  gap: 8px;
+}
+
+/* ให้แต่ละแถวเป็นบรรทัดเดียวกัน */
+.info-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* หัวข้อ (เช่น Drone ID:) */
+.info-card .title {
+  font-weight: 700;
+  color: #1a73e8;
+}
+
+/* ค่าของข้อมูล (เช่น 66011511) */
+.info-card .value {
+  font-weight: 700;
+  color: #222;
+}
+
+
+/* Logs section */
+main section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+main h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+form input[type="number"] {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 120px;
+  text-align: center;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+form input[type="number"]:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+form button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #155fc9;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 0.9rem;
+}
+
+th {
+  background-color: #f1f3f4;
+  color: #333;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:hover td {
+  background-color: #f9fafb;
+}
+
+/* Pagination */
+.
