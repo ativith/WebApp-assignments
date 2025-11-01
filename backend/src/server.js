@@ -11,7 +11,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://web-app-assignments-ao5z.vercel.app/",
+      "https://web-app-assignments-ao5z.vercel.app",
     ],
   })
 );
