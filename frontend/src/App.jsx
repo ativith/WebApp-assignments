@@ -1,19 +1,3 @@
-/*
-Drone Dashboard (single-file React component)
-
-Instructions:
-1. Place this file as `src/App.jsx` in a Vite + React project with Tailwind CSS enabled.
-2. Ensure .env contains:
-   VITE_API_BASE_URL=http://localhost:3000
-   VITE_DRONE_ID=66011511
-3. Install dependencies: axios
-   npm install axios
-4. Tailwind: configure per Tailwind + Vite docs and import the CSS (e.g. in src/main.jsx import "./index.css").
-
-This component fetches drone config from /api/config/:droneId and logs from /api/logs/:droneId?page=N
-It supports pagination (12 items/page), posting new celsius values to /api/logs and is responsive.
-*/
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
