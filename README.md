@@ -16,7 +16,7 @@
 ## Tech Stack  
 - Frontend: React+vite
 - Backend: Express
--Deploy:Vercel,Render
+- Deploy:Vercel,Render
 
 
 ## Directory Structures
