@@ -10,11 +10,10 @@
 -Deploy:Vercel,Render
 
 
-#Directory Structures
+## Directory Structures
 -  backend/ โค้ดฝั่งserver
 -  frontend/ โค้ดฝั่งผู้ใช้
 
-#Getting Started
 ## 🧩 Getting Started
 
 ### ความต้องการเบื้องต้น
