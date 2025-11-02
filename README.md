@@ -68,7 +68,7 @@ npm install
 #### 2️⃣ ติดตั้ง Client
 
 ```bash
-cd client
+cd frontend
 npm install
 ```
 
@@ -80,7 +80,7 @@ npm install
 
 ```bash
 cd backend
-npm run dev
+nodemon src/server.js
 ```
 
 เซิร์ฟเวอร์จะเริ่มทำงานที่ `http://localhost:3000`
@@ -88,7 +88,7 @@ npm run dev
 จากนั้นเปิดเทอร์มินัลอีกหนึ่งหน้าต่างเพื่อรัน **Client**
 
 ```bash
-cd client
+cd frontend
 npm run dev
 ```
 
