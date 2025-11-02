@@ -42,7 +42,7 @@ DRONE_LOG_TOKEN=
 * `DRONE_LOG_URL` – ใช้เข้าถึงหรือบันทึก Log ของโดรน
 * `DRONE_LOG_TOKEN` – โทเคนสำหรับยืนยันสิทธิ์การเข้าถึง Log API
 
-#### Client (`client/.env`)
+#### Frontend (`frontend/.env`)
 
 ```
 VITE_API_BASE_URL=
@@ -85,7 +85,7 @@ nodemon src/server.js
 
 เซิร์ฟเวอร์จะเริ่มทำงานที่ `http://localhost:3000`
 
-จากนั้นเปิดเทอร์มินัลอีกหนึ่งหน้าต่างเพื่อรัน **Client**
+จากนั้นเปิดเทอร์มินัลอีกหนึ่งหน้าต่างเพื่อรัน **Frontend**
 
 ```bash
 cd frontend
